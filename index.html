@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script defer src="/assets/js/index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            <div>
+                <img class="product-img" src="/assets/img/Asus-removebg-preview.png" alt="" />
+            </div>
+            <div class="product-info">
+                <span>
+                    <h3>Laptop Asus</h3>
+                </span>
+                <input id="cantidad" type="number" placeholder="ingrese cantidad" value=""></input>
+                <br>
+                <br>
+                <br>
+                Elegir color
+                <input id="color" type="color" placeholder="color" value=""> </input>
+                <br>
+                <br>
+                <span id="valor">$90.990</span>
+            </div>
+            <br>
+            <br>
+            <br>
+            <button onClick="calcularTotal()" class="shopping-btn"> <strong>Comprar</strong>
+
+            </button>
+        </div>
+    
+    
+    <div class="label">
+        <label id="total">total: $ <span id="resultadoFinal"></span></label>
+        <br>
+        <br>
+        <label id="cantidadTotal">cantidad: <span id="cantidadFinal"></span> </label>
+        <br>
+        <br>
+        <label>color: <span id="colorFinal" class="imagenColor"></span></label>
+    </div>
+
+</div>
+</body>
+
+</html>
